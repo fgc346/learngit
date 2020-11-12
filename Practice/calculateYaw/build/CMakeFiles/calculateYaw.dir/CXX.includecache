@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erma/Program/Test/calculateYaw/calculateYaw.cpp
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+eigen3/Eigen/Eigen
+-
+iostream
+-
+cmath
+-
+gflags/gflags.h
+-
+set
+-
+mutex
+-
+limits
+-
+
