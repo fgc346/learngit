@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erma/Program/Test/learnDemo/sortVectorStruct.cpp
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+eigen3/Eigen/Eigen
+-
+iostream
+-
+cmath
+-
+gflags/gflags.h
+-
+set
+-
+mutex
+-
+limits
+-
+vector
+-
+algorithm
+-
+spline.h
+/home/erma/Program/Test/learnDemo/spline.h
+
+/home/erma/Program/Test/learnDemo/spline.h
+cstdio
+-
+cassert
+-
+vector
+-
+algorithm
+-
+

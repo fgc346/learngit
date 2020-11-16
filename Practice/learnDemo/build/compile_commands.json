@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/erma/Program/Test/learnDemo/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/sortVectorStruct.dir/sortVectorStruct.cpp.o -c /home/erma/Program/Test/learnDemo/sortVectorStruct.cpp",
+  "file": "/home/erma/Program/Test/learnDemo/sortVectorStruct.cpp"
+}
+]

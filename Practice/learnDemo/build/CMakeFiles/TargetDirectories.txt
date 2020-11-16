@@ -1,0 +1,3 @@
+/home/erma/Program/Test/learnDemo/build/CMakeFiles/rebuild_cache.dir
+/home/erma/Program/Test/learnDemo/build/CMakeFiles/sortVectorStruct.dir
+/home/erma/Program/Test/learnDemo/build/CMakeFiles/edit_cache.dir
