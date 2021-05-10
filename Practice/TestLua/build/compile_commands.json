@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/erma/Program/Test/TestLua/build",
+  "command": "/usr/bin/g++-7   -I/home/erma/Program/Test/TestLua/build -I/home/erma/Program/Test/TestLua -I/home/erma/Program/Test/TestLua/deps/gflags  -g   -o CMakeFiles/LuaDemo.dir/main.cpp.o -c /home/erma/Program/Test/TestLua/main.cpp",
+  "file": "/home/erma/Program/Test/TestLua/main.cpp"
+}
+]

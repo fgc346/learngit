@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../deps/gflags/gflags.h
+string
+-
+vector
+-
+gflags/gflags_declare.h
+../deps/gflags/gflags/gflags_declare.h
+gflags_gflags.h
+../deps/gflags/gflags_gflags.h
+
+../deps/gflags/gflags_gflags.h
+
+/home/erma/Program/Test/TestLua/main.cpp
+iostream
+-
+gflags.h
+/home/erma/Program/Test/TestLua/gflags.h
+mylua.h
+/home/erma/Program/Test/TestLua/mylua.h
+
+/home/erma/Program/Test/TestLua/mylua.h
+lua5.3/lua.h
+-
+lua5.3/lauxlib.h
+-
+lua5.3/lualib.h
+-
+

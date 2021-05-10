@@ -1,0 +1,3 @@
+/home/erma/Program/Test/TestLua/build/CMakeFiles/rebuild_cache.dir
+/home/erma/Program/Test/TestLua/build/CMakeFiles/LuaDemo.dir
+/home/erma/Program/Test/TestLua/build/CMakeFiles/edit_cache.dir
