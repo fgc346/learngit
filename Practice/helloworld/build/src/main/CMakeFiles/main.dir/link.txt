@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g  -rdynamic CMakeFiles/main.dir/main.cpp.o  -o ../../../bin/main -Wl,-rpath,/home/erma/Program/Test/helloworld/lib ../../../lib/libhelloworld_manage.so ../../../lib/libadapter_gflags.so 

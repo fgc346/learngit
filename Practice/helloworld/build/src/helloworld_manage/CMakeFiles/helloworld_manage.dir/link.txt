@@ -1,0 +1,1 @@
+/usr/bin/g++-7 -fPIC -g  -shared -Wl,-soname,libhelloworld_manage.so -o ../../../lib/libhelloworld_manage.so CMakeFiles/helloworld_manage.dir/helloworld.cpp.o 

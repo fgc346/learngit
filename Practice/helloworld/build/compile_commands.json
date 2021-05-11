@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/erma/Program/Test/helloworld/build/src/helloworld_manage",
+  "command": "/usr/bin/g++-7  -Dhelloworld_manage_EXPORTS -I/home/erma/Program/Test/helloworld/include  -g -fPIC   -o CMakeFiles/helloworld_manage.dir/helloworld.cpp.o -c /home/erma/Program/Test/helloworld/src/helloworld_manage/helloworld.cpp",
+  "file": "/home/erma/Program/Test/helloworld/src/helloworld_manage/helloworld.cpp"
+},
+{
+  "directory": "/home/erma/Program/Test/helloworld/build/src/main",
+  "command": "/usr/bin/g++-7   -I/home/erma/Program/Test/helloworld/include -I/home/erma/Program/Test/helloworld/src/helloworld_manage -I/usr/include/gflags  -g   -o CMakeFiles/main.dir/main.cpp.o -c /home/erma/Program/Test/helloworld/src/main/main.cpp",
+  "file": "/home/erma/Program/Test/helloworld/src/main/main.cpp"
+}
+]

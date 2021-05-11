@@ -1,0 +1,10 @@
+/home/erma/Program/Test/helloworld/build/CMakeFiles/rebuild_cache.dir
+/home/erma/Program/Test/helloworld/build/CMakeFiles/edit_cache.dir
+/home/erma/Program/Test/helloworld/build/src/CMakeFiles/rebuild_cache.dir
+/home/erma/Program/Test/helloworld/build/src/CMakeFiles/edit_cache.dir
+/home/erma/Program/Test/helloworld/build/src/helloworld_manage/CMakeFiles/rebuild_cache.dir
+/home/erma/Program/Test/helloworld/build/src/helloworld_manage/CMakeFiles/helloworld_manage.dir
+/home/erma/Program/Test/helloworld/build/src/helloworld_manage/CMakeFiles/edit_cache.dir
+/home/erma/Program/Test/helloworld/build/src/main/CMakeFiles/rebuild_cache.dir
+/home/erma/Program/Test/helloworld/build/src/main/CMakeFiles/main.dir
+/home/erma/Program/Test/helloworld/build/src/main/CMakeFiles/edit_cache.dir

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/helloworld_manage/helloworld.h
+iostream
+-
+
+/home/erma/Program/Test/helloworld/src/main/adapter_gflags.h
+gflags/gflags.h
+/home/erma/Program/Test/helloworld/src/main/gflags/gflags.h
+
+/home/erma/Program/Test/helloworld/src/main/main.cpp
+helloworld.h
+/home/erma/Program/Test/helloworld/src/main/helloworld.h
+adapter_gflags.h
+/home/erma/Program/Test/helloworld/src/main/adapter_gflags.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+string
+-
+vector
+-
+

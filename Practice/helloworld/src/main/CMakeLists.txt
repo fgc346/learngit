@@ -1,0 +1,10 @@
+include_directories("${CMAKE_SOURCE_DIR}/src/helloworld_manage")
+include_directories(/usr/include/gflags)
+add_executable(main
+                                main.cpp
+                                adapter_gflags.h
+                                )
+target_link_libraries(main 
+    ${CMAKE_SOURCE_DIR}/lib/libhelloworld_manage.so
+    ${CMAKE_SOURCE_DIR}/lib/libadapter_gflags.so
+    )

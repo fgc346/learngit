@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erma/Program/Test/helloworld/src/helloworld_manage/helloworld.cpp
+helloworld.h
+/home/erma/Program/Test/helloworld/src/helloworld_manage/helloworld.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/erma/Program/Test/helloworld/src/helloworld_manage/helloworld.h
+iostream
+-
+
