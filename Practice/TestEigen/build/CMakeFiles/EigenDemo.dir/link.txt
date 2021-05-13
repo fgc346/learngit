@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g  -rdynamic CMakeFiles/EigenDemo.dir/main.cpp.o CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o  -o ../bin/EigenDemo  -L/home/erma/Program/Test/TestEigen/deps/liblog -Wl,-rpath,/home/erma/Program/Test/TestEigen/deps/liblog -lvtslog -lpthread 

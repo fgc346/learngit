@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/erma/Program/Test/TestEigen/build",
+  "command": "/usr/bin/g++-7   -I/home/erma/Program/Test/TestEigen/build -I/home/erma/Program/Test/TestEigen -I/home/erma/Program/Test/TestEigen/deps/Eigen-3.3  -g   -o CMakeFiles/EigenDemo.dir/main.cpp.o -c /home/erma/Program/Test/TestEigen/main.cpp",
+  "file": "/home/erma/Program/Test/TestEigen/main.cpp"
+},
+{
+  "directory": "/home/erma/Program/Test/TestEigen/build",
+  "command": "/usr/bin/g++-7   -I/home/erma/Program/Test/TestEigen/build -I/home/erma/Program/Test/TestEigen -I/home/erma/Program/Test/TestEigen/deps/Eigen-3.3  -g   -o CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o -c /home/erma/Program/Test/TestEigen/deps/liblog/log_manager.cpp",
+  "file": "/home/erma/Program/Test/TestEigen/deps/liblog/log_manager.cpp"
+}
+]
