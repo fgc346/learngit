@@ -1402,23 +1402,7 @@ lapacke_mangling.h
 
 ../deps/Eigen-3.3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
-/home/erma/Program/Test/TestEigen/deps/liblog/log_manager.cpp
-log_manager.h
-/home/erma/Program/Test/TestEigen/deps/liblog/log_manager.h
-unistd.h
--
-string
--
-
-/home/erma/Program/Test/TestEigen/deps/liblog/log_manager.h
-vtslog.h
-/home/erma/Program/Test/TestEigen/deps/liblog/vtslog.h
-
-/home/erma/Program/Test/TestEigen/deps/liblog/vtslog.h
-string
--
-
-/home/erma/Program/Test/TestEigen/main.cpp
+/home/erma/Program/learngit/Practice/TestEigen/main.cpp
 stdio.h
 -
 stdlib.h
@@ -1432,7 +1416,5 @@ chrono
 unistd.h
 -
 Eigen/Eigen
-/home/erma/Program/Test/TestEigen/Eigen/Eigen
-deps/liblog/log_manager.h
-/home/erma/Program/Test/TestEigen/deps/liblog/log_manager.h
+/home/erma/Program/learngit/Practice/TestEigen/Eigen/Eigen
 

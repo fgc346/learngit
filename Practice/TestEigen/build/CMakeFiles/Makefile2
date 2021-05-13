@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erma/Program/Test/TestEigen
+CMAKE_SOURCE_DIR = /home/erma/Program/learngit/Practice/TestEigen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erma/Program/Test/TestEigen/build
+CMAKE_BINARY_DIR = /home/erma/Program/learngit/Practice/TestEigen/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/EigenDemo.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/erma/Program/Test/TestEigen/build
 CMakeFiles/EigenDemo.dir/all:
 	$(MAKE) -f CMakeFiles/EigenDemo.dir/build.make CMakeFiles/EigenDemo.dir/depend
 	$(MAKE) -f CMakeFiles/EigenDemo.dir/build.make CMakeFiles/EigenDemo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erma/Program/Test/TestEigen/build/CMakeFiles --progress-num=1,2,3 "Built target EigenDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erma/Program/learngit/Practice/TestEigen/build/CMakeFiles --progress-num=1,2 "Built target EigenDemo"
 .PHONY : CMakeFiles/EigenDemo.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/EigenDemo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/EigenDemo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erma/Program/Test/TestEigen/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erma/Program/learngit/Practice/TestEigen/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/EigenDemo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erma/Program/Test/TestEigen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erma/Program/learngit/Practice/TestEigen/build/CMakeFiles 0
 .PHONY : CMakeFiles/EigenDemo.dir/rule
 
 # Convenience name for target.

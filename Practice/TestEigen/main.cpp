@@ -5,19 +5,12 @@
 #include <chrono>
 #include <unistd.h>
 #include "Eigen/Eigen"
-#include "deps/liblog/log_manager.h"
 // #include "logmanager.hpp"
 
-void init()
-{
-    LogInst->init(); 
-}
 
 int main()
 {
-    init();
-    LOG_INFO( "Hello, I am TestEigen Client." );
-    
+    printf("hello,world!\n");
     // sleep(1);
     //休眠多少毫秒
     std::this_thread::sleep_for(std::chrono::milliseconds(1));

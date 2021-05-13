@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erma/Program/Test/TestEigen
+CMAKE_SOURCE_DIR = /home/erma/Program/learngit/Practice/TestEigen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erma/Program/Test/TestEigen/build
+CMAKE_BINARY_DIR = /home/erma/Program/learngit/Practice/TestEigen/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erma/Program/Test/TestEigen/build/CMakeFiles /home/erma/Program/Test/TestEigen/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erma/Program/learngit/Practice/TestEigen/build/CMakeFiles /home/erma/Program/learngit/Practice/TestEigen/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erma/Program/Test/TestEigen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erma/Program/learngit/Practice/TestEigen/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,33 +123,6 @@ EigenDemo/fast:
 	$(MAKE) -f CMakeFiles/EigenDemo.dir/build.make CMakeFiles/EigenDemo.dir/build
 .PHONY : EigenDemo/fast
 
-deps/liblog/log_manager.o: deps/liblog/log_manager.cpp.o
-
-.PHONY : deps/liblog/log_manager.o
-
-# target to build an object file
-deps/liblog/log_manager.cpp.o:
-	$(MAKE) -f CMakeFiles/EigenDemo.dir/build.make CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o
-.PHONY : deps/liblog/log_manager.cpp.o
-
-deps/liblog/log_manager.i: deps/liblog/log_manager.cpp.i
-
-.PHONY : deps/liblog/log_manager.i
-
-# target to preprocess a source file
-deps/liblog/log_manager.cpp.i:
-	$(MAKE) -f CMakeFiles/EigenDemo.dir/build.make CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.i
-.PHONY : deps/liblog/log_manager.cpp.i
-
-deps/liblog/log_manager.s: deps/liblog/log_manager.cpp.s
-
-.PHONY : deps/liblog/log_manager.s
-
-# target to generate assembly for a file
-deps/liblog/log_manager.cpp.s:
-	$(MAKE) -f CMakeFiles/EigenDemo.dir/build.make CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.s
-.PHONY : deps/liblog/log_manager.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... EigenDemo"
 	@echo "... edit_cache"
-	@echo "... deps/liblog/log_manager.o"
-	@echo "... deps/liblog/log_manager.i"
-	@echo "... deps/liblog/log_manager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

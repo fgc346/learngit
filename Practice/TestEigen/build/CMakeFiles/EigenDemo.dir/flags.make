@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/erma/Program/Test/TestEigen/build -I/home/erma/Program/Test/TestEigen -I/home/erma/Program/Test/TestEigen/deps/Eigen-3.3 
+CXX_INCLUDES = -I/home/erma/Program/learngit/Practice/TestEigen/build -I/home/erma/Program/learngit/Practice/TestEigen -I/home/erma/Program/learngit/Practice/TestEigen/deps/Eigen-3.3 
 

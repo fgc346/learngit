@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EigenDemo.dir/main.cpp.o"
-  "CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o"
   "../bin/EigenDemo.pdb"
   "../bin/EigenDemo"
 )

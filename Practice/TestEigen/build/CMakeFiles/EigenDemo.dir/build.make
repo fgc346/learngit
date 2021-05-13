@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erma/Program/Test/TestEigen
+CMAKE_SOURCE_DIR = /home/erma/Program/learngit/Practice/TestEigen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erma/Program/Test/TestEigen/build
+CMAKE_BINARY_DIR = /home/erma/Program/learngit/Practice/TestEigen/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/EigenDemo.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/EigenDemo.dir/flags.make
 
 CMakeFiles/EigenDemo.dir/main.cpp.o: CMakeFiles/EigenDemo.dir/flags.make
 CMakeFiles/EigenDemo.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erma/Program/Test/TestEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EigenDemo.dir/main.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EigenDemo.dir/main.cpp.o -c /home/erma/Program/Test/TestEigen/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erma/Program/learngit/Practice/TestEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EigenDemo.dir/main.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EigenDemo.dir/main.cpp.o -c /home/erma/Program/learngit/Practice/TestEigen/main.cpp
 
 CMakeFiles/EigenDemo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EigenDemo.dir/main.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erma/Program/Test/TestEigen/main.cpp > CMakeFiles/EigenDemo.dir/main.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erma/Program/learngit/Practice/TestEigen/main.cpp > CMakeFiles/EigenDemo.dir/main.cpp.i
 
 CMakeFiles/EigenDemo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EigenDemo.dir/main.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erma/Program/Test/TestEigen/main.cpp -o CMakeFiles/EigenDemo.dir/main.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erma/Program/learngit/Practice/TestEigen/main.cpp -o CMakeFiles/EigenDemo.dir/main.cpp.s
 
 CMakeFiles/EigenDemo.dir/main.cpp.o.requires:
 
@@ -81,43 +81,17 @@ CMakeFiles/EigenDemo.dir/main.cpp.o.provides: CMakeFiles/EigenDemo.dir/main.cpp.
 CMakeFiles/EigenDemo.dir/main.cpp.o.provides.build: CMakeFiles/EigenDemo.dir/main.cpp.o
 
 
-CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o: CMakeFiles/EigenDemo.dir/flags.make
-CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o: ../deps/liblog/log_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erma/Program/Test/TestEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o -c /home/erma/Program/Test/TestEigen/deps/liblog/log_manager.cpp
-
-CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erma/Program/Test/TestEigen/deps/liblog/log_manager.cpp > CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.i
-
-CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erma/Program/Test/TestEigen/deps/liblog/log_manager.cpp -o CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.s
-
-CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o.requires:
-
-.PHONY : CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o.requires
-
-CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o.provides: CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EigenDemo.dir/build.make CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o.provides.build
-.PHONY : CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o.provides
-
-CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o.provides.build: CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o
-
-
 # Object files for target EigenDemo
 EigenDemo_OBJECTS = \
-"CMakeFiles/EigenDemo.dir/main.cpp.o" \
-"CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o"
+"CMakeFiles/EigenDemo.dir/main.cpp.o"
 
 # External object files for target EigenDemo
 EigenDemo_EXTERNAL_OBJECTS =
 
 ../bin/EigenDemo: CMakeFiles/EigenDemo.dir/main.cpp.o
-../bin/EigenDemo: CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o
 ../bin/EigenDemo: CMakeFiles/EigenDemo.dir/build.make
 ../bin/EigenDemo: CMakeFiles/EigenDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/erma/Program/Test/TestEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/EigenDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/erma/Program/learngit/Practice/TestEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/EigenDemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EigenDemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,7 +100,6 @@ CMakeFiles/EigenDemo.dir/build: ../bin/EigenDemo
 .PHONY : CMakeFiles/EigenDemo.dir/build
 
 CMakeFiles/EigenDemo.dir/requires: CMakeFiles/EigenDemo.dir/main.cpp.o.requires
-CMakeFiles/EigenDemo.dir/requires: CMakeFiles/EigenDemo.dir/deps/liblog/log_manager.cpp.o.requires
 
 .PHONY : CMakeFiles/EigenDemo.dir/requires
 
@@ -135,6 +108,6 @@ CMakeFiles/EigenDemo.dir/clean:
 .PHONY : CMakeFiles/EigenDemo.dir/clean
 
 CMakeFiles/EigenDemo.dir/depend:
-	cd /home/erma/Program/Test/TestEigen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erma/Program/Test/TestEigen /home/erma/Program/Test/TestEigen /home/erma/Program/Test/TestEigen/build /home/erma/Program/Test/TestEigen/build /home/erma/Program/Test/TestEigen/build/CMakeFiles/EigenDemo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/erma/Program/learngit/Practice/TestEigen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erma/Program/learngit/Practice/TestEigen /home/erma/Program/learngit/Practice/TestEigen /home/erma/Program/learngit/Practice/TestEigen/build /home/erma/Program/learngit/Practice/TestEigen/build /home/erma/Program/learngit/Practice/TestEigen/build/CMakeFiles/EigenDemo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/EigenDemo.dir/depend
 
