@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named firstFile
+
+# Build rule for target.
+firstFile: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 firstFile
+.PHONY : firstFile
+
+# fast build rule for target.
+firstFile/fast:
+	$(MAKE) -f CMakeFiles/firstFile.dir/build.make CMakeFiles/firstFile.dir/build
+.PHONY : firstFile/fast
+
+#=============================================================================
 # Target rules for targets named LuaDemo
 
 # Build rule for target.
@@ -122,6 +135,33 @@ LuaDemo: cmake_check_build_system
 LuaDemo/fast:
 	$(MAKE) -f CMakeFiles/LuaDemo.dir/build.make CMakeFiles/LuaDemo.dir/build
 .PHONY : LuaDemo/fast
+
+firstFile.o: firstFile.cpp.o
+
+.PHONY : firstFile.o
+
+# target to build an object file
+firstFile.cpp.o:
+	$(MAKE) -f CMakeFiles/firstFile.dir/build.make CMakeFiles/firstFile.dir/firstFile.cpp.o
+.PHONY : firstFile.cpp.o
+
+firstFile.i: firstFile.cpp.i
+
+.PHONY : firstFile.i
+
+# target to preprocess a source file
+firstFile.cpp.i:
+	$(MAKE) -f CMakeFiles/firstFile.dir/build.make CMakeFiles/firstFile.dir/firstFile.cpp.i
+.PHONY : firstFile.cpp.i
+
+firstFile.s: firstFile.cpp.s
+
+.PHONY : firstFile.s
+
+# target to generate assembly for a file
+firstFile.cpp.s:
+	$(MAKE) -f CMakeFiles/firstFile.dir/build.make CMakeFiles/firstFile.dir/firstFile.cpp.s
+.PHONY : firstFile.cpp.s
 
 main.o: main.cpp.o
 
@@ -150,6 +190,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/LuaDemo.dir/build.make CMakeFiles/LuaDemo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sample.o: sample.cpp.o
+
+.PHONY : sample.o
+
+# target to build an object file
+sample.cpp.o:
+	$(MAKE) -f CMakeFiles/LuaDemo.dir/build.make CMakeFiles/LuaDemo.dir/sample.cpp.o
+.PHONY : sample.cpp.o
+
+sample.i: sample.cpp.i
+
+.PHONY : sample.i
+
+# target to preprocess a source file
+sample.cpp.i:
+	$(MAKE) -f CMakeFiles/LuaDemo.dir/build.make CMakeFiles/LuaDemo.dir/sample.cpp.i
+.PHONY : sample.cpp.i
+
+sample.s: sample.cpp.s
+
+.PHONY : sample.s
+
+# target to generate assembly for a file
+sample.cpp.s:
+	$(MAKE) -f CMakeFiles/LuaDemo.dir/build.make CMakeFiles/LuaDemo.dir/sample.cpp.s
+.PHONY : sample.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +224,18 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... LuaDemo"
 	@echo "... edit_cache"
+	@echo "... firstFile"
+	@echo "... LuaDemo"
+	@echo "... firstFile.o"
+	@echo "... firstFile.i"
+	@echo "... firstFile.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sample.o"
+	@echo "... sample.i"
+	@echo "... sample.s"
 .PHONY : help
 
 

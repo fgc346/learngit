@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LuaDemo.dir/main.cpp.o"
+  "CMakeFiles/LuaDemo.dir/sample.cpp.o"
   "../bin/LuaDemo.pdb"
   "../bin/LuaDemo"
 )

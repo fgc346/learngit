@@ -3,6 +3,19 @@
 
 CMakeFiles/LuaDemo.dir/main.cpp.o: ../deps/gflags/gflags.h
 CMakeFiles/LuaDemo.dir/main.cpp.o: ../deps/gflags/gflags_gflags.h
+CMakeFiles/LuaDemo.dir/main.cpp.o: ../deps/lua5.1/include/lauxlib.h
+CMakeFiles/LuaDemo.dir/main.cpp.o: ../deps/lua5.1/include/lua.h
+CMakeFiles/LuaDemo.dir/main.cpp.o: ../deps/lua5.1/include/luaconf.h
+CMakeFiles/LuaDemo.dir/main.cpp.o: ../deps/lua5.1/include/lualib.h
+CMakeFiles/LuaDemo.dir/main.cpp.o: ../common.h
 CMakeFiles/LuaDemo.dir/main.cpp.o: ../main.cpp
 CMakeFiles/LuaDemo.dir/main.cpp.o: ../mylua.h
+
+CMakeFiles/LuaDemo.dir/sample.cpp.o: ../deps/lua5.1/include/lauxlib.h
+CMakeFiles/LuaDemo.dir/sample.cpp.o: ../deps/lua5.1/include/lua.h
+CMakeFiles/LuaDemo.dir/sample.cpp.o: ../deps/lua5.1/include/luaconf.h
+CMakeFiles/LuaDemo.dir/sample.cpp.o: ../deps/lua5.1/include/lualib.h
+CMakeFiles/LuaDemo.dir/sample.cpp.o: ../common.h
+CMakeFiles/LuaDemo.dir/sample.cpp.o: ../mylua.h
+CMakeFiles/LuaDemo.dir/sample.cpp.o: ../sample.cpp
 

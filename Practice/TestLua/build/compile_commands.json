@@ -1,7 +1,17 @@
 [
 {
   "directory": "/home/erma/Program/Test/TestLua/build",
-  "command": "/usr/bin/g++-7   -I/home/erma/Program/Test/TestLua/build -I/home/erma/Program/Test/TestLua -I/home/erma/Program/Test/TestLua/deps/gflags  -g   -o CMakeFiles/LuaDemo.dir/main.cpp.o -c /home/erma/Program/Test/TestLua/main.cpp",
+  "command": "/usr/bin/g++-7  -DfirstFile_EXPORTS -I/home/erma/Program/Test/TestLua/build -I/home/erma/Program/Test/TestLua -I/home/erma/Program/Test/TestLua/deps/gflags -I/home/erma/Program/Test/TestLua/deps/lua5.1/include  -g -fPIC   -o CMakeFiles/firstFile.dir/firstFile.cpp.o -c /home/erma/Program/Test/TestLua/firstFile.cpp",
+  "file": "/home/erma/Program/Test/TestLua/firstFile.cpp"
+},
+{
+  "directory": "/home/erma/Program/Test/TestLua/build",
+  "command": "/usr/bin/g++-7   -I/home/erma/Program/Test/TestLua/build -I/home/erma/Program/Test/TestLua -I/home/erma/Program/Test/TestLua/deps/gflags -I/home/erma/Program/Test/TestLua/deps/lua5.1/include  -g   -o CMakeFiles/LuaDemo.dir/main.cpp.o -c /home/erma/Program/Test/TestLua/main.cpp",
   "file": "/home/erma/Program/Test/TestLua/main.cpp"
+},
+{
+  "directory": "/home/erma/Program/Test/TestLua/build",
+  "command": "/usr/bin/g++-7   -I/home/erma/Program/Test/TestLua/build -I/home/erma/Program/Test/TestLua -I/home/erma/Program/Test/TestLua/deps/gflags -I/home/erma/Program/Test/TestLua/deps/lua5.1/include  -g   -o CMakeFiles/LuaDemo.dir/sample.cpp.o -c /home/erma/Program/Test/TestLua/sample.cpp",
+  "file": "/home/erma/Program/Test/TestLua/sample.cpp"
 }
 ]

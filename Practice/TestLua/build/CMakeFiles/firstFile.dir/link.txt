@@ -1,0 +1,1 @@
+/usr/bin/g++-7 -fPIC -g  -shared -Wl,-soname,libfirstFile.so -o ../lib/libfirstFile.so CMakeFiles/firstFile.dir/firstFile.cpp.o  -L/home/erma/Program/Test/TestLua/deps/gflags  -L/home/erma/Program/Test/TestLua/deps/lua5.1/lib -Wl,-rpath,/home/erma/Program/Test/TestLua/deps/gflags:/home/erma/Program/Test/TestLua/deps/lua5.1/lib -llua5.1 

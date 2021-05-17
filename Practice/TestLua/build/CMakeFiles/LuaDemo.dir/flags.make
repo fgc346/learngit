@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/erma/Program/Test/TestLua/build -I/home/erma/Program/Test/TestLua -I/home/erma/Program/Test/TestLua/deps/gflags 
+CXX_INCLUDES = -I/home/erma/Program/Test/TestLua/build -I/home/erma/Program/Test/TestLua -I/home/erma/Program/Test/TestLua/deps/gflags -I/home/erma/Program/Test/TestLua/deps/lua5.1/include 
 

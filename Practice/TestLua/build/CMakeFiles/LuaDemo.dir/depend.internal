@@ -4,5 +4,18 @@
 CMakeFiles/LuaDemo.dir/main.cpp.o
  ../deps/gflags/gflags.h
  ../deps/gflags/gflags_gflags.h
+ ../deps/lua5.1/include/lauxlib.h
+ ../deps/lua5.1/include/lua.h
+ ../deps/lua5.1/include/luaconf.h
+ ../deps/lua5.1/include/lualib.h
+ /home/erma/Program/Test/TestLua/common.h
  /home/erma/Program/Test/TestLua/main.cpp
  /home/erma/Program/Test/TestLua/mylua.h
+CMakeFiles/LuaDemo.dir/sample.cpp.o
+ ../deps/lua5.1/include/lauxlib.h
+ ../deps/lua5.1/include/lua.h
+ ../deps/lua5.1/include/luaconf.h
+ ../deps/lua5.1/include/lualib.h
+ /home/erma/Program/Test/TestLua/common.h
+ /home/erma/Program/Test/TestLua/mylua.h
+ /home/erma/Program/Test/TestLua/sample.cpp

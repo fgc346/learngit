@@ -186,11 +186,8 @@ LUADEMO_BINARY_DIR:STATIC=/home/erma/Program/Test/TestLua/build
 //Value Computed by CMake
 LUADEMO_SOURCE_DIR:STATIC=/home/erma/Program/Test/TestLua
 
-//Value Computed by CMake
-gflagDemo_BINARY_DIR:STATIC=/home/erma/Program/Test/TestLua/build
-
-//Value Computed by CMake
-gflagDemo_SOURCE_DIR:STATIC=/home/erma/Program/Test/TestLua
+//Dependencies for the target
+firstFile_LIB_DEPENDS:STATIC=general;lua5.1;
 
 
 ########################

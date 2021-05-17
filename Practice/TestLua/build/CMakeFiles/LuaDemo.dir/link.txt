@@ -1,1 +1,1 @@
-/usr/bin/g++-7  -g  -rdynamic CMakeFiles/LuaDemo.dir/main.cpp.o  -o ../bin/LuaDemo  -L/home/erma/Program/Test/TestLua/deps/gflags -Wl,-rpath,/home/erma/Program/Test/TestLua/deps/gflags -lgflags -llua5.3 
+/usr/bin/g++-7  -g  -rdynamic CMakeFiles/LuaDemo.dir/main.cpp.o CMakeFiles/LuaDemo.dir/sample.cpp.o  -o ../bin/LuaDemo  -L/home/erma/Program/Test/TestLua/deps/gflags  -L/home/erma/Program/Test/TestLua/deps/lua5.1/lib -Wl,-rpath,/home/erma/Program/Test/TestLua/deps/gflags:/home/erma/Program/Test/TestLua/deps/lua5.1/lib -lgflags -llua5.1 

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/erma/Program/Test/TestLua/main.cpp" "/home/erma/Program/Test/TestLua/build/CMakeFiles/LuaDemo.dir/main.cpp.o"
+  "/home/erma/Program/Test/TestLua/sample.cpp" "/home/erma/Program/Test/TestLua/build/CMakeFiles/LuaDemo.dir/sample.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,6 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
   "../deps/gflags"
+  "../deps/lua5.1/include"
   )
 
 # Targets to which this target links.
