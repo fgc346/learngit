@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/mypy.dir/main.cpp.o  -o mypy   -L/home/erma/anaconda3/envs/py36/lib  -Wl,-rpath,/home/erma/anaconda3/envs/py36/lib -lpython3.6m 
